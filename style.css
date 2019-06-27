@@ -1,0 +1,172 @@
+body{
+  background-color: #1b1919;
+}
+/* --------------top section--------------- */
+#top {
+  padding: 3% 10%;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 190px;
+}
+.navbar {
+  padding: 10px 0;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.title{
+  text-align: center;
+  margin: 10% 0 5%;
+}
+.title h1{
+  font-weight: bold;
+  font-size: 6.5rem;
+  line-height: 2;
+  color: #fff;
+}
+.button{
+  padding: 10% 25%;
+  background-color: #48d494;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.button:hover{
+  opacity: 0.5;
+}
+@media (max-width:1000px) {
+  .title h1{
+    font-size: 4.5rem;
+  }
+}
+
+/* -----------section 1-------------- */
+
+#section-1{
+  padding: 3% 10%;
+}
+.sectionbox-1{
+  padding: 5%;
+  text-align: center;
+}
+.icon{
+  color: #48d494;
+  margin-bottom: 1rem;
+}
+.count{
+  color: #fff;
+  font-size: 2rem;
+}
+.countext{
+  color: gray;
+  font-size: 1rem;
+}
+
+/*--------------------- section 2-------------------------- */
+
+#section-2{
+  padding: 3% 10%;
+}
+.section-title{
+  font-size: 3.5rem;
+  color: #48d494;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+.section-para{
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  padding-right: 1rem;
+}
+.button1{
+  padding: 3% 4%;
+  background-color: #48d494;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+}
+.button1:hover{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.image-border{
+  box-shadow: 10px 10px #48d494;
+}
+/* ---------------section3----------------- */
+
+#section-3{
+  padding: 3% 10%;
+}
+.section-title1{
+  font-size: 3.5rem;
+  color: #48d494;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
+.section-para1{
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 5rem;
+  padding-right: 1rem;
+}
+.section-slide{
+  text-align: center;
+}
+.section-title2{
+  font-size: 3rem;
+  color: #48d494;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.section-image{
+  width: 30%;
+  margin: 20px;
+}
+/* section4 */
+#section-4{
+  padding: 3% 10%;
+}
+.section-title3{
+  font-size: 3.5rem;
+  color: #48d494;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+.section-para3{
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  padding-right: 1rem;
+}
+.section-table{
+  color: grey;
+  text-align: center;
+  padding: 3%;
+  font-size: 1.2rem;
+}
+.table-link{
+  text-decoration: none;
+  color: #48d494;
+}
+.table-link:hover{
+  color:#48d494;
+  opacity: 0.5;
+  text-decoration: none;
+}
