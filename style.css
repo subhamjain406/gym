@@ -1,36 +1,44 @@
-body{
-  background-color: #1b1919;
+body {
+  /* background-color: #1b1919; */
+  background-color: #000;
 }
+
 /* --------------top section--------------- */
 #top {
   padding: 3% 10%;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-weight: bold;
   font-size: 2rem;
   margin-right: 190px;
 }
+
 .navbar {
   padding: 10px 0;
 }
+
 .nav-item {
   padding: 0 18px;
 }
+
 .nav-link {
   font-size: 1.2rem;
 }
-.title{
+
+.title {
   text-align: center;
   margin: 10% 0 5%;
 }
-.title h1{
+
+.title h1 {
   font-weight: bold;
   font-size: 6.5rem;
   line-height: 2;
   color: #fff;
 }
-.button{
-  padding: 10% 25%;
+
+.button {
   background-color: #48d494;
   color: #000;
   font-weight: bold;
@@ -38,57 +46,71 @@ body{
   font-size: 1rem;
   text-transform: uppercase;
 }
-.button:hover{
+
+.button:hover {
+  background-color: #48d494;
   opacity: 0.5;
 }
+
+.button:focus {
+  background-color: #48d494 !important;
+  opacity: 0.5 !important;
+  box-shadow: 0px 0px #000 inset, 0px 0px #000 !important;
+}
+
 @media (max-width:1000px) {
-  .title h1{
+  .title h1 {
     font-size: 4.5rem;
   }
 }
 
 /* -----------section 1-------------- */
-
-#section-1{
+#section-1 {
   padding: 3% 10%;
 }
-.sectionbox-1{
+
+.sectionbox-1 {
   padding: 5%;
   text-align: center;
 }
-.icon{
+
+.icon {
   color: #48d494;
   margin-bottom: 1rem;
 }
-.count{
+
+.count {
   color: #fff;
   font-size: 2rem;
 }
-.countext{
+
+.countext {
   color: gray;
   font-size: 1rem;
 }
 
 /*--------------------- section 2-------------------------- */
-
-#section-2{
+#section-2 {
   padding: 3% 10%;
 }
-.section-title{
+
+.section-title {
   font-size: 3.5rem;
   color: #48d494;
   font-weight: bold;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
-.section-para{
+
+.section-para {
   color: gray;
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 3rem;
   padding-right: 1rem;
 }
-.button1{
+
+.button1 {
   padding: 3% 4%;
   background-color: #48d494;
   color: #000;
@@ -96,20 +118,23 @@ body{
   font-weight: bold;
   border: none;
 }
-.button1:hover{
+
+.button1:hover {
   background-color: #000;
   color: #fff;
   border: 1px solid #fff;
 }
-.image-border{
-  box-shadow: 10px 10px #48d494;
-}
-/* ---------------section3----------------- */
 
-#section-3{
+.image-border {
+  box-shadow: 10px 10px 3px #48d494;
+}
+
+/* ---------------section3----------------- */
+#section-3 {
   padding: 3% 10%;
 }
-.section-title1{
+
+.section-title1 {
   font-size: 3.5rem;
   color: #48d494;
   font-weight: bold;
@@ -117,56 +142,264 @@ body{
   margin-top: 5rem;
   margin-bottom: 1.5rem;
 }
-.section-para1{
+
+.section-para1 {
   color: gray;
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 5rem;
   padding-right: 1rem;
 }
-.section-slide{
+
+.section-slide {
   text-align: center;
 }
-.section-title2{
+
+.section-title2 {
   font-size: 3rem;
   color: #48d494;
   font-weight: bold;
   line-height: 1.5;
 }
-.section-image{
+
+.section-image {
   width: 30%;
   margin: 20px;
 }
+
 /* section4 */
-#section-4{
+#section-4 {
   padding: 3% 10%;
 }
-.section-title3{
+
+.section-title3 {
   font-size: 3.5rem;
   color: #48d494;
   font-weight: bold;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
-.section-para3{
+
+.section-para3 {
   color: gray;
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 2.5rem;
   padding-right: 1rem;
 }
-.section-table{
+
+.section-table {
   color: grey;
   text-align: center;
   padding: 3%;
   font-size: 1.2rem;
 }
-.table-link{
+
+.table-link {
   text-decoration: none;
   color: #48d494;
 }
-.table-link:hover{
-  color:#48d494;
+
+.table-link:hover {
+  color: #48d494;
   opacity: 0.5;
   text-decoration: none;
+}
+
+/* section5 */
+#section-5 {
+  padding: 3% 10%;
+}
+
+.section-title5 {
+  font-size: 3.5rem;
+  color: #48d494;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.section-para5 {
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  padding-right: 1rem;
+}
+
+.trainer {
+  padding: 3%;
+}
+
+.trainer-image {
+  width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 3px #48d494;
+  margin-bottom: 40px;
+}
+
+.trainer-title {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.trainer-detail {
+  color: gray;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.trainer-bottom {
+  margin-top: 4%;
+}
+
+/* section-6 */
+#section-6 {
+  padding: 3% 10%;
+}
+
+.section-title6 {
+  font-size: 3.5rem;
+  color: #48d494;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.section-para6 {
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  padding-right: 1rem;
+}
+
+.card {
+  background-color: #48d494;
+  padding: 2.5rem;
+}
+
+.card-icon, .card-title, .card-text {
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+.card-text {
+  opacity: 0.7;
+}
+
+.service {
+  margin-bottom: 1rem;
+}
+
+/* section 7 */
+#section-7 {
+  padding: 3% 20%;
+  background-color: #1b1919;
+}
+
+.section-title7 {
+  font-size: 3.5rem;
+  color: #48d494;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.section-para7 {
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  padding-right: 1rem
+}
+
+.contact {
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  background-color: #1b1919;
+  border: 2px solid #fff;
+  border-radius: 0;
+}
+
+.form-control:hover {
+  border: 2px solid #48d494;
+}
+
+.form-control:focus {
+  border: 2px solid #48d494 !important;
+  box-shadow: 0px 0px #1b1919 inset, 0px 0px #1b1919;
+  outline-color: #1b1919 !important;
+  background-color: #1b1919 ! important;
+}
+
+.button1 {
+  background-color: #48d494;
+}
+
+.button1:hover {
+  background-color: #1b1919;
+}
+
+.button1:focus {
+  background-color: #48d494 !important;
+  border: 2px solid #48d494 !important;
+  color: #000 !important;
+  outline: none !important;
+  box-shadow: 0px 0px #1b1919 inset, 0px 0px #1b1919 !important;
+}
+
+/* section-8 */
+#section-8 {
+  padding: 3% 10%;
+}
+
+.footer-title {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-para {
+  color: gray;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  padding-right: 1rem;
+}
+
+.footer-link {
+  color: #48d494;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.footer-link:hover {
+  color: #48d494;
+  text-decoration: none;
+}
+
+.footer-column2 {
+  padding-left: 7.5rem;
+}
+
+@media (max-width:1000px) {
+  .footer-column2 {
+    padding-left:1rem;
+  }
+}
+.footer-last{
+  margin-top: 9rem;
+  margin-bottom: 7rem;
+  text-align: center;
+}
+.footer-paral{
+  color: grey;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.myname{
+  color: #48d494;
 }
