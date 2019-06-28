@@ -67,6 +67,7 @@ body {
 /* -----------section 1-------------- */
 #section-1 {
   padding: 3% 10%;
+  margin-top: 3rem;
 }
 
 .sectionbox-1 {
@@ -133,6 +134,7 @@ body {
 /* ---------------section3----------------- */
 #section-3 {
   padding: 3% 10%;
+  margin-top: 3rem;
 }
 
 .section-title1 {
@@ -140,7 +142,6 @@ body {
   color: #48d494;
   font-weight: bold;
   line-height: 1.5;
-  margin-top: 5rem;
   margin-bottom: 1.5rem;
 }
 
