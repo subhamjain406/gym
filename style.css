@@ -292,7 +292,7 @@ body {
 }
 
 .card-icon, .card-title, .card-text {
-  color: #fff;
+  color: gray;
   margin-bottom: 2.5rem;
 }
 
