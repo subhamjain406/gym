@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gym</title>
   <!-- css linking -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,6 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="counter.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -58,11 +60,11 @@
       </div>
   </section>
   <!-- section 1 -->
-  <section id="section-1">
+  <section id="section-1" class="section-1">
     <div class="container-fluid">
       <div class="row">
         <!-- icon 1 -->
-        <div class="sectionbox-1 col-lg-3 col-md-6 col-sm-6">
+        <div class="sectionbox-1 col-lg-3 col-md-6 col-sm-6 icon1">
           <div class="counter">
             <i class="icon fas fa-dumbbell fa-4x"></i>
             <br>
@@ -72,7 +74,7 @@
           </div>
         </div>
         <!-- icon 2 -->
-        <div class="sectionbox-1 col-lg-3 col-md-6 col-sm-6">
+        <div class="sectionbox-1 col-lg-3 col-md-6 col-sm-6 icon2">
           <div class="counter">
             <i class="icon fas fa-biking fa-4x"></i>
             <br>
@@ -82,7 +84,7 @@
           </div>
         </div>
         <!-- icon 3 -->
-        <div class="sectionbox-1 col-lg-3 col-md-6 col-sm-6">
+        <div class="sectionbox-1 col-lg-3 col-md-6 col-sm-6 icon3">
           <div class="counter">
             <i class="icon fas fa-briefcase-medical fa-4x"></i>
             <br>
@@ -92,7 +94,7 @@
           </div>
         </div>
         <!-- icon 4 -->
-        <div class="sectionbox-1 col-lg-3 col-md-6 col-sm-6">
+        <div class="sectionbox-1 col-lg-3 col-md-6 col-sm-6 icon4">
           <div class="counter">
             <i class="icon fas fa-heartbeat fa-4x"></i>
             <br>
@@ -118,7 +120,7 @@
             <a href="#section-7" class="button1 btn btn-primary">Get In Touch</a>
           </p>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 animated lightSpeedIn">
           <img src="images/about_1.jpg" alt="Image" class="image-fluid image-border" width="100%" height="auto">
         </div>
       </div>
@@ -230,20 +232,20 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 trainer">
-          <img src="images/person_1.jpg" alt="Image" class="trainer-image">
+          <img src="images/person_1.jpg" alt="Image" class="trainer-image image1">
           <h3 class="trainer-title">James Holmes</h3>
           <p class="trainer-detail">Aerobatics Trainer</p>
           <p class="trainer-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil repellat ipsam sequi iure rerum voluptatem, dignissimos dolorem porro aliquid veritatis!</p>
         </div>
         <div class="col-lg-4 trainer trainer-bottom">
-          <img src="images/person_2.jpg" alt="Image" class="trainer-image">
+          <img src="images/person_2.jpg" alt="Image" class="trainer-image image2">
           <h3 class="trainer-title">Kelly Green</h3>
           <p class="trainer-detail">Aerobatics Trainer</p>
           <p class="trainer-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil repellat ipsam sequi iure rerum voluptatem,
             dignissimos dolorem porro aliquid veritatis!</p>
         </div>
         <div class="col-lg-4 trainer trainer-bottom1">
-          <img src="images/person_3.jpg" alt="Image" class="trainer-image">
+          <img src="images/person_3.jpg" alt="Image" class="trainer-image image3">
           <h3 class="trainer-title">Ben Smith</h3>
           <p class="trainer-detail">Aerobatics Trainer</p>
           <p class="trainer-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil repellat ipsam sequi iure rerum voluptatem,
@@ -364,7 +366,7 @@
           <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt iure iusto architecto?
             Numquam, natus?</p>
           <form action="#section7">
-              <input type="submit" class="button btn btn-primary rounded-0" value="Contact ">
+            <input type="submit" class="button btn btn-primary rounded-0" value="Contact ">
           </form>
         </div>
       </div>
@@ -379,6 +381,7 @@
       </div>
     </div>
   </footer>
+  <script src="index.js"></script>
 </body>
 
 </html>

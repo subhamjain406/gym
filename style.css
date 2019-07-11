@@ -6,6 +6,12 @@ body {
 /* --------------top section--------------- */
 #top {
   padding: 3% 10%;
+  animation: opac 1s;
+}
+
+@keyframes opac {
+  from{opacity: 0;}
+  to{opacity: 1;}
 }
 
 .navbar-brand {
@@ -68,6 +74,10 @@ body {
 #section-1 {
   padding: 3% 10%;
   margin-top: 3rem;
+}
+
+.section-1{
+  visibility: hidden;
 }
 
 .sectionbox-1 {
@@ -413,4 +423,74 @@ body {
 }
 .myname{
   color: #48d494;
+}
+
+/* -----------------animation------------------ */
+
+.animate1{
+  animation: icon1 0.8s ease;
+}
+.animate2{
+  animation: icon2 0.8s ease 0.1s;
+}
+.animate3{
+  animation: icon3 0.8s ease 0.2s;
+}
+.animate4{
+  animation: icon4 0.8s ease 0.3s;
+}
+.animate{
+  animation: icon1 1s ease;
+}
+@keyframes icon1{
+  from {
+    visibility: visible;
+   opacity: 0;
+   transform: translate3d(0, 100%, 0);
+ }
+
+ to {
+   visibility: visible;
+   opacity: 1;
+   transform: translate3d(0, 0, 0);
+ }
+}
+@keyframes icon2{
+  from {
+    visibility: visible;
+   opacity: 0;
+   transform: translate3d(0, 100%, 0);
+ }
+
+ to {
+   visibility: visible;
+   opacity: 1;
+   transform: translate3d(0, 0, 0);
+ }
+}
+@keyframes icon3{
+  from {
+    visibility: visible;
+   opacity: 0;
+   transform: translate3d(0, 100%, 0);
+ }
+
+ to {
+   visibility: visible;
+   opacity: 1;
+   transform: translate3d(0, 0, 0);
+ }
+}
+@keyframes icon4{
+  from {
+    visibility: visible;
+   opacity: 0;
+   transform: translate3d(0, 100%, 0);
+ }
+
+ to {
+   visibility: visible;
+   opacity: 1;
+   transform: translate3d(0, 0, 0);
+ }
 }
